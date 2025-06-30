@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: study_bot_container
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-Win}
+      POSTGRES_DB: ${POSTGRES_DB:-study_bot}
+    ports:
+      - "${POSTGRES_PORT:-5431}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    
+volumes:
+  pgdata:

@@ -1,0 +1,1 @@
+.\llama_win_cuda_12_6\llama-server.exe  --model ".\models\RuadaptQwen2.5-GGUF\RuadaptQwen2.5-q4_k_m.gguf" --gpu-layers 50 --host 127.0.0.1 --port 8080 --ctx-size 400 --verbose
