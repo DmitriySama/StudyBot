@@ -13,7 +13,7 @@ Python, PosgreSql 16.0, EasyOCR, LLM-модель RuadaptQwen2.5-7B-Lite-Beta_q4
 2. Клонировать содержимое ветки
 3. Добавить в models embedder_model/ в формате sentence-transformer
 4. Добавить в models LLM-модель в формате gguf: RuadaptQwen2.5-GGUF/RuadaptQwen2.5-q4_k_m.gguf 
-5. С помощью docker-compose сбилдить базу данных
+5. С помощью docker-compose сбилдить базу данных в контейнере
 
 ## Нюансы
 1. Для работы модели необходимо запустить run_qwen.bat. В нем прописаны LLM-модель, её гиперпараметры и остальные параметры запуска.
