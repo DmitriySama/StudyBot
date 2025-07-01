@@ -6,7 +6,7 @@
 Чат-бот в телеграмм-канале, выполняющий для студентов роль помощника в обучении курсов путем предоставления ответов на вопросы
 
 ## Стэк технологий:
-Python, PosgreSql 16.0, EasyOCR, LLM-модель RuadaptQwen2.5-7B-Lite-Beta_q4_k_m.gguf, Embedder-модель paraphrase-multilingual-MiniLM L12-v2
+Python, PostgreSQL 16.0, EasyOCR, LLM-модель RuadaptQwen2.5-7B-Lite-Beta_q4_k_m.gguf, Embedder-модель paraphrase-multilingual-MiniLM L12-v2
 
 ## Способ использования
 1. Скачать Docker
